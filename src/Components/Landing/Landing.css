@@ -1,8 +1,15 @@
-#landing_page{
+/* #landing_page{
   padding-top: 10vh;
   border: 5px;
   border-style: solid;
   border-color: red;
+} */
+.intro-content{
+  /* padding-top: 15vh; */
+  margin-top: 10vh;
+  /* border: 5px;
+  border-style: solid;
+  border-color: red; */
 }
 
 #landing_page .gradient {
@@ -18,8 +25,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    padding-top: 20vh;
-    height: 90vh;
+    height: 100vh;
   }
 
   #landing_page h6 {

@@ -12,7 +12,7 @@ class LandingPage extends React.Component {
           <View>
             <Mask className="d-flex justify-content-center align-items-center gradient">
             <Container>
-              <Row>
+              <Row className="intro-content">
                 <div className="white-text text-center text-md-left col-md-6 mt-xl-5 mb-5">
                   <h1 className="h1-responsive font-weight-bold mt-sm-5">Make purchases with our app </h1>
                   <hr className="hr-light"/>
@@ -29,16 +29,6 @@ class LandingPage extends React.Component {
               </Container>
             </Mask>
           </View>
-
-          <Container>
-            <Row className="py-5">
-              <Col md="12" className="text-center">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-              </Col>
-            </Row>
-          </Container>
           </div>
     );
   }

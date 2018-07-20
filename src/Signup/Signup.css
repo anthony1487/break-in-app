@@ -1,0 +1,39 @@
+#sign_up .view {
+    background-image: url('MiamiSkyline.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+  }
+  
+  #sign_up .gradient {
+    background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
+    background: -webkit-gradient(linear, 45deg, from(rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%));
+    background: linear-gradient(to 45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
+  }
+  
+  #sign_up .card {
+    background-color: rgba(126, 123, 215, 0.2);
+  }
+  
+  #sign_up h6 {
+    line-height: 1.7;
+  }
+  
+  #sign_up .navbar {
+    transition: background .5s ease-in-out,padding .5s ease-in-out;
+  }
+  
+  .top-nav-collapse {
+    background: #424f95 !important;
+  }
+  
+  @media (max-width: 768px) {
+    #sign_up .navbar:not(.top-nav-collapse) {
+        background: #424f95 !important;
+    }
+  }
+  
+  #sign_up label {
+    color: #fff!important;
+  }
