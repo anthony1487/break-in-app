@@ -1,16 +1,23 @@
-/* #landing_page{
-  padding-top: 10vh;
-  border: 5px;
-  border-style: solid;
-  border-color: red;
-} */
-.intro-content{
-  /* padding-top: 15vh; */
-  /* margin-top: 10vh;
-  border: 5px;
+.z-depth-1{
+  /* padding-top: 10vh; */
+  /* margin-top: 5vh; */
+  /* border: 5px;
   border-style: solid;
   border-color: red; */
 }
+.intro-content{
+  /* padding-top: 15vh; */
+  /* margin-top: 10vh; */
+  /* border: 5px;
+  border-style: solid;
+  border-color: red; */
+}
+
+/* .mt-xl-5{
+  border: 5px;
+  border-style: solid;
+  border-color: blue; */
+
 
 #landing_page .gradient {
     background: -moz-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
@@ -21,7 +28,7 @@
   }
 
   #landing_page .view {
-    background-image: url('https://mdbootstrap.com/img/Photos/Others/architecture.jpg');
+    background-image: url('aerial-view-architecture-buildings-248867.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;

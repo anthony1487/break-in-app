@@ -1,5 +1,5 @@
 import React from 'react';
-import './Landing.css'
+import './Signup.css'
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Collapse, Mask, Row, Col, Fa, Button, View, Container, Card, CardBody, Input, FormInline } from 'mdbreact';
 

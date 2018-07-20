@@ -27,7 +27,8 @@ class Nav extends React.Component {
   }
   render(){
   const overlay = <div id="sidenav-overlay" style={{backgroundColor: 'transparent'}} onClick={this.handleNavbarClick}/>
-    return (
+    
+  return (
       <div id="Nav">
        <Router>
           <div>
@@ -40,27 +41,27 @@ class Nav extends React.Component {
                 <Collapse isOpen = {this.state.collapse} navbar>
                   <NavbarNav left>
                     <NavItem>
-                      <NavLink to="#!">Home</NavLink>
+                      <NavLink to="/">Home</NavLink>
                     </NavItem>
                     <NavItem>
-                      <NavLink to="#!">About</NavLink>
+                      <NavLink to="/about">About</NavLink>
                     </NavItem>
                     <NavItem>
-                      <NavLink to="#!">Features</NavLink>
+                      <NavLink to="/livemap">Live Map</NavLink>
                     </NavItem>
                     <NavItem>
-                      <NavLink to="#!">Services</NavLink>
+                      <NavLink to="/report">Report</NavLink>
                     </NavItem>
                     <NavItem>
-                      <NavLink to="#!">Support</NavLink>
+                      <NavLink to="/support">Support</NavLink>
                     </NavItem>
                     <NavItem>
-                      <NavLink to="#!">Team</NavLink>
+                      <NavLink to="/team">Team</NavLink>
                     </NavItem>
                     <NavItem>
-                      <NavLink to="#!">Contact</NavLink>
+                      <NavLink to="/contact">Contact</NavLink>
                     </NavItem>
-                  </NavbarNav>
+                  </NavbarNav>  
                   <NavbarNav right >
                     <NavItem>
                       <NavLink to="!#">
@@ -75,6 +76,11 @@ class Nav extends React.Component {
                     <NavItem>
                       <NavLink to="!#">
                         <Fa icon="instagram"></Fa>
+                      </NavLink>
+                    </NavItem>
+                    <NavItem>
+                      <NavLink to="/signup">
+                        Login/Signup
                       </NavLink>
                     </NavItem>
                   </NavbarNav>

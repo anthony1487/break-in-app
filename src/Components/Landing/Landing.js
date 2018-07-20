@@ -18,7 +18,7 @@ class LandingPage extends React.Component {
           length={4}
           showControls={true}
           showIndicators={true}
-          className="z-depth-1">
+          className="z-depth-2">
             <CarouselItem itemId="1">
               <Row className="intro-content">
                 <div className="white-text text-center text-md-left col-md-6 mt-xl-5 mb-5">
